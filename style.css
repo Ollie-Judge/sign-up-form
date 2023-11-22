@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  background-color: azure;
+}
+
+#imgContainer {
+  float: left;
+  height: 100%;
+  width: 25%;
+  margin: auto;
+  position: relative;
+}
+
+#textFormDiv {
+  margin: 250px auto;
+  float: right;
+}
+
+#titleContainer {
+  margin: 25px auto;
+  text-align: left;
+  width: 50%;
+}
+
+p {
+  margin: 25px auto;
+  font-weight: bold;
+}
+
+#formContainer {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  vertical-align: middle;
+  top: 50%;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 5px #888888;
+  margin-bottom: 25px;
+  padding: 25px;
+  background-color: white;
+}
+
+h6 {
+  text-align: left;
+  margin: 25px auto;
+}
+
+.inputSections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sections {
+  text-align: left;
+}
+
+input {
+  margin-right: 50px;
+  margin-bottom: 15px;
+}
+
+#submitContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#submitButton {
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: darkolivegreen;
+}
+
+#loginSection {
+  margin: 25px auto;
+  text-align: center;
+}

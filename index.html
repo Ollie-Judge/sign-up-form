@@ -3,37 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Sign Up Form</title>
   </head>
   <body>
-    <div><h1>Sign Up!</h1></div>
+    <div id="imgContainer">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fp4.wallpaperbetter.com%2Fwallpaper%2F479%2F412%2F61%2Fnature-ferns-plants-green-wallpaper-preview.jpg&f=1&nofb=1&ipt=6182a2dcdaae2905fed5f597a32a33ce93942c8cebb2709a84ec5f436da7aef3&ipo=images"
+        alt=""
+      />
+    </div>
+    <div id="textFormDiv">
+      <div id="titleContainer">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you reaise your deepest dreams. Sign up
+          <em>now</em> to get started
+        </p>
 
-    <div><p>Sign Up here! What for? Nothing, just sign up</p></div>
+        <p>You know you want to.</p>
+      </div>
 
-    <div>
-      <form action="" method="">
-        <div>
-          <div>
-            <label for="">First Name:</label>
-            <input type="text" name="" id="" require />
-          </div>
-          <div>
-            <label for="">Last Name:</label>
-            <input type="text" name="" id="" require />
-          </div>
-          <div>
-            <label for="">Email:</label>
-            <input type="email" name="" id="" require />
-          </div>
-          <div>
-            <label for="">Password:</label>
-            <input type="password" name="" id="" require />
-          </div>
+      <div id="formContainer">
+        <div id="formTitle">
+          <h6>lets do this</h6>
         </div>
-        <div>
-          <input type="button" value="Submit" />
-        </div>
-      </form>
+
+        <form action="" method="">
+          <div id="form">
+            <div class="inputSections">
+              <div class="sections">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="" required />
+                <label for="email">Email</label>
+                <input type="email" name="email" id="" required />
+
+                <label for="password">Password</label
+                ><input type="password" name="password" id="" required />
+              </div>
+            </div>
+
+            <div class="inputSections">
+              <div class="sections">
+                <label for="LastName">Last Name</label>
+                <input type="text" name="lastName" id="" required />
+
+                <label for="number">Phone Number</label>
+                <input type="number" name="number" id="" required />
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="" required />
+              </div>
+            </div>
+          </div>
+
+          <div id="SubmitContainer">
+            <input id="submitButton" type="button" value="Create Account" />
+          </div>
+        </form>
+      </div>
+
+      <div id="loginSection">
+        <p>Already have an account? <a>Log in</a></p>
+      </div>
     </div>
   </body>
 </html>
